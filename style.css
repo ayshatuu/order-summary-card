@@ -1,0 +1,157 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: lightblue;
+  font-family: sans-serif;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+}
+
+.card {
+  background-color: #ffff;
+  border-radius: 12px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  margin: 20px;
+  padding: 20px;
+  padding-top: 0;
+  width: 400px;
+  height: 39rem;
+}
+
+.order {
+  font-family: sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  padding-top: 30px;
+  /* padding-bottom: 20px; */
+}
+
+.card h4 {
+  font-weight: lighter;
+  font-size: 15px;
+  line-height: 1.6;
+  align-items: center;
+  padding-bottom: 20px;
+  padding: 20px;
+  color: #6c7c92;
+  text-align: center;
+}
+
+.plan {
+  background-color: #f8f9fe;
+  padding: 15px 20px;
+  border-radius: 12px;
+  width: 370px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.plan-details {
+  display: flex;
+  align-items: flex-start; 
+  gap: 15px;
+}
+
+.plan-details img {
+  width: 50px;
+}
+
+.plan-details div {
+  display: flex;
+  flex-direction: column;   
+}
+
+.plan-details h2 {
+ font-size: 1rem; 
+  color: #1f2f56; 
+  margin-top: 5px;  
+  line-height: 1.3;
+}
+
+.plan-details p {
+   font-size: 0.9rem;
+  color: #6c7c92;
+  line-height: 1.9;
+}
+
+.plan a:hover {
+  text-decoration: none;
+  color: #766CF1;
+}
+
+.year {
+  text-align: left;
+}
+
+.plan a {
+  background-color: hsl(225, 100%, 98%);
+  border: 0;
+  border-radius: 15px;
+  text-decoration: underline;
+  color: hsl(245, 75%, 52%);
+  font-weight: 550;
+  font-size: 14px;
+}
+
+.payment {
+  background-color: hsl(245, 75%, 52%);
+  color: #ffff;
+  width: 310px;
+  height: 2.5rem;
+  border-radius: 12px;
+  border: none;
+  font-size: 1rem;
+  font-weight: bold;
+  margin: 20px;
+  cursor: pointer;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.payment:hover {
+  background-color: #766CF1;
+}
+
+.cancel {
+  color: #6c7c92;
+  font-size: 14px;
+  font-weight: 700;
+  padding-top: 10px;
+  cursor: pointer;
+  
+}
+
+.cancel:hover {
+  color: black;
+}
+
+
+@media only screen and (max-width: 1440px) {
+  .Container {
+    width: 40%;
+  }
+}
+@media only screen and (max-width: 375px) {
+  .Container {
+    width: 85%;
+  }
+}
+
